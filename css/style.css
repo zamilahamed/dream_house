@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(550deg, blue, transparent);
+    min-height: 1000px;
+    margin: 55px;
+}
+/*header start*/
+header{
+    background-color:white;
+    padding: 10px 0;
+
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+}
+.logo_text{
+    color: blue;
+    width: 25%;
+    float:left;
+    margin-left: -120px;
+    margin-top: 8px;
+}
+.menu{
+    width: 55%;
+    float: right;
+    margin-top: 15px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{ 
+    list-style:none;
+    float:left;
+}
+.menu ul li a{
+    text-decoration:none;
+    padding:5px 15px;
+    display:block;
+    color:blue;
+    font-size: 18px;
+    transition: .5s;
+} 
+.menu ul li:last-child a{
+    padding-right:0;
+}
+.menu ul li a:hover{
+    color:#4267B2;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image: url(../Image/Banner_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper_two{
+    width: 30%;
+    overflow: hidden;
+}
+.banner_content{
+    margin: 100px 0px 300px;
+    background-color: blue;
+    opacity: .8;
+    padding: 40px 40px 0px;
+}
+.banner_content h1{
+    color: white
+}
+.banner_content p{
+    color: white;
+    font-size: 18px;
+}
+.banner_content button{
+    margin: 25px 0px;
+    padding: 5px;
+    border-radius: 11px;
+    background-color: white;
+}
+/*banner end*/
+/*service start*/
+.service{
+    margin: 0 auto;
+}
+.first_content{
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    padding: 19px;
+    text-align: center;
+}
+.first_content img{
+    width: 100%
+}
+.first_content h1{
+    margin-bottom: 20px;
+}
+.first_content p{
+    margin: 30px 0 30px;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.first_content button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: white;
+}
+/*service end*/
+/*footer start*/
+.f_content{
+    margin: 0 auto;
+    width: 50%;
+}
+.f_content h1{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.f_content p{
+    text-align: center;
+}
+.s_icon{
+    text-align: center;
+    margin-top: 20px;
+}
+ .facebook{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+ }
+ .facebook:hover{
+    opacity: 0.7
+ }
+ .twitter{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+ }
+ .twitter:hover{
+    opacity: 0.7
+ }
+ .g_plus{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+ }
+ .g_plus:hover{
+    opacity: 0.7;
+ }
+ .rss{
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+ }
+ .rss:hover{
+    opacity: 0.7
+ }
+/*footer end*/
+
+
